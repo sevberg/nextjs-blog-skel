@@ -18,6 +18,11 @@ const Navbar = () => (
               <a className="nav-link">About</a>
             </Link>
           </li>
+          <li className="nav-item">
+            <Link href="/bitcoin">
+              <a className="nav-link">BitCoin</a>
+            </Link>
+          </li>
         </ul>
       </div>
     </div>
