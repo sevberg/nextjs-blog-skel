@@ -1,19 +1,8 @@
-import Link from "next/Link";
+import Navbar from "../components/navbar";
 
 const Index = () => (
   <div>
-    <ul>
-      <li>
-        <Link href="/">
-          <a>Home</a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/about">
-          <a>About</a>
-        </Link>
-      </li>
-    </ul>
+    <Navbar></Navbar>
     <h1>Hello Energy System Modeller</h1>
   </div>
 );
