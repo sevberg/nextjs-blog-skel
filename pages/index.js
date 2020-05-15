@@ -1,1 +1,7 @@
-export default () => <div>Hello Energy System Modeller</div>;
+const Index = () => (
+  <div>
+    <h1>Hello Energy System Modeller</h1>
+  </div>
+);
+
+export default Index;
