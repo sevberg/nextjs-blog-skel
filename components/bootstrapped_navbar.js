@@ -19,6 +19,11 @@ const Navbar = () => (
             </Link>
           </li>
           <li className="nav-item">
+            <Link href="/post">
+              <a className="nav-link">Blog</a>
+            </Link>
+          </li>
+          <li className="nav-item">
             <Link href="/bitcoin">
               <a className="nav-link">BitCoin</a>
             </Link>
