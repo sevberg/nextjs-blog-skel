@@ -1,10 +1,11 @@
-import Navbar from "../components/navbar";
+import Layout from "../components/layout";
 
 const Index = () => (
-  <div>
-    <Navbar></Navbar>
-    <h1>Hello Energy System Modeller</h1>
-  </div>
+  <Layout>
+    <div>
+      <h1>Hello Energy System Modeller</h1>
+    </div>
+  </Layout>
 );
 
 export default Index;
